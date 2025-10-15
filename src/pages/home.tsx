@@ -1,7 +1,5 @@
 import { ArrowRight, Mail } from "lucide-react";
 import ParticlesComponent from "../components/ParticlesComponent.tsx";
-
-// 1. Objeto de configuração para as partículas da Home (efeito "rede")
 const particlesOptionsForHome = {
   fullScreen: { enable: false },
   background: {

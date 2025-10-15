@@ -16,11 +16,11 @@ export default function AppNavBar() {
           <a href="#home" onClick={handleLinkClick}>Cawan Dev</a>
         </div>
         <nav className="hidden md:flex gap-6 text-gray-800 font-medium">
-          <a href="#home" className="relative hover:text-blue-700 ...">Início</a>
-          <a href="#about" className="relative hover:text-blue-700 ...">Sobre</a>
-          <a href="#experiences" className="relative hover:text-blue-700 ...">Experiências</a>
-          <a href="#projects" className="relative hover:text-blue-700 ...">Projetos</a>
-          <a href="#contacts" className="relative hover:text-blue-700 ...">Contato</a>
+          <a href="#home"  className="relative hover:text-blue-700 transition-colors after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-blue-950 after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full" >Início</a>
+          <a href="#about"  className="relative hover:text-blue-700 transition-colors after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-blue-950 after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full">Sobre</a>
+          <a href="#experiences"  className="relative hover:text-blue-700 transition-colors after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-blue-950 after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full">Experiências</a>
+          <a href="#projects"  className="relative hover:text-blue-700 transition-colors after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-blue-950 after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full ">Projetos</a>
+          <a href="#contacts"  className="relative hover:text-blue-700 transition-colors after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-blue-950 after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full ">Contato</a>
         </nav>
         <div className="md:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>

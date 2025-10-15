@@ -1,4 +1,3 @@
-import React from "react";
 import { ArrowRight, Mail } from "lucide-react";
 import ParticlesComponent from "../components/ParticlesComponent.tsx";
 

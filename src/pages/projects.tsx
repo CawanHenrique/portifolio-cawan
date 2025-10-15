@@ -99,7 +99,7 @@ export default function Projects() {
   return (
     <main
       id="projects"
-      className="w-full h-full overflow-hidden bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8 aboslute "
+      className="relative w-full h-full overflow-hidden bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8"
     >
       <ParticlesComponent
         id="projects-particles"

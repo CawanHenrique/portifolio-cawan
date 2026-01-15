@@ -65,7 +65,7 @@ export default function About() {
         <div className="mt-20">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm  hover:shadow-lg transition-shadow duration-300">
-              <p className="text-4xl font-bold text-blue-600 mb-2">1+</p>
+              <p className="text-4xl font-bold text-blue-600 mb-2">2+</p>
               <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wider">
                 Anos de Experiência
               </h4>
